@@ -74,7 +74,12 @@ h1 {
 }
 
 .todo-list::-webkit-scrollbar-thumb {
-  background: #888;
+  background: linear-gradient(
+    180deg,
+    rgba(136, 88, 255, 1),
+    rgba(88, 204, 255, 1),
+    rgba(255, 136, 195, 1)
+  );
   border-radius: 10px;
 }
 
