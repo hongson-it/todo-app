@@ -35,7 +35,7 @@ h1 {
 
 .todo-input {
   padding: 6px;
-  margin-right: 20px;
+  max-width: 350px;
   border-radius: 5px;
   font-size: 16px;
   flex: 1;
@@ -43,10 +43,11 @@ h1 {
 
 .btn-clear {
   position: absolute;
-  right: 76px;
+  right: 110px;
   transform: translateY(-50%);
   top: 50%;
   color: #888;
+  padding: 10px;
 }
 
 .btn-clear:hover {
@@ -61,7 +62,6 @@ h1 {
 .todo-list {
   max-height: 320px;
   overflow-y: auto;
-  padding-right: 10px;
   margin-top: 12px;
 }
 
@@ -103,12 +103,16 @@ h1 {
 
 .btn-add {
   background-color: rgb(61, 59, 243);
+  margin-left: auto;
+  padding-inline: 20px;
 }
 .btn-edit {
   background-color: rgb(53, 95, 46);
   margin-left: 20px;
+  padding-inline: 20px;
 }
 .btn-del {
   background-color: rgb(255, 41, 41);
   margin-left: 20px;
+  padding-inline: 20px;
 }
