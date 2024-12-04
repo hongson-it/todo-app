@@ -5,7 +5,6 @@ if (!dataJobs) {
   dataJobs = [];
 } else {
   dataJobs = JSON.parse(dataJobs);
-  console.log('🚀 ~ dataJobs:', dataJobs);
 }
 
 let inputElement = document.querySelector('.todo-input');
