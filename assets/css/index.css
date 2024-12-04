@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: rgb(150, 148, 255);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app {
+  background-color: white;
+  width: 500px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #81bfda;
+}
+
+.todo-control {
+  margin-top: 10px;
+  display: flex;
+  position: relative;
+}
+
+.todo-input {
+  padding: 6px;
+  margin-right: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  flex: 1;
+}
+
+.btn-clear {
+  position: absolute;
+  right: 76px;
+  transform: translateY(-50%);
+  top: 50%;
+  color: #888;
+}
+
+.btn-clear:hover {
+  color: #333;
+}
+
+.todo-input:focus {
+  font-size: 16px;
+  color: green;
+}
+
+.todo-list {
+  max-height: 320px;
+  overflow-y: auto;
+  padding-right: 10px;
+  margin-top: 12px;
+}
+
+.todo-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.todo-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.todo-list::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.todo-list::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.todo-list-item {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.todo-list-item span {
+  flex: 1;
+}
+
+.btn {
+  padding: 8px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-add {
+  background-color: rgb(61, 59, 243);
+}
+.btn-edit {
+  background-color: rgb(53, 95, 46);
+  margin-left: 20px;
+}
+.btn-del {
+  background-color: rgb(255, 41, 41);
+  margin-left: 20px;
+}
